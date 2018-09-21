@@ -10,6 +10,7 @@ using System.Drawing;
 using System.Drawing.Drawing2D;
 using System.Linq;
 using System.Windows.Forms;
+using R = MattLamp.Properties.Resources;
 
 namespace MattLamp
 {
@@ -568,6 +569,34 @@ namespace MattLamp
         {
             ledLayoutControl.DataSource = null;
             if (_DeviceManager != null) _DeviceManager.Dispose();
+        }
+
+        private void tabControl_DrawItem(object sender, DrawItemEventArgs e)
+        {
+            if (e.Index >= 0 && e.Index < tabControl.TabPages.Count)
+            {
+                e.DrawBackground();
+                Image image = null;
+                switch (e.Index)
+                {
+                    case 0: image = R.key_m; break;
+                    case 1: image = R.led; break;
+                }
+
+                var textX = e.Bounds.X + 4f;
+                if (image != null)
+                {
+                    var y = e.Bounds.Y + (e.Bounds.Height - image.Height) / 2f;
+                    var x = e.Bounds.X + 4f;
+                    e.Graphics.DrawImage(image, x, y);
+                    textX += image.Width + 4f;
+                }
+
+                var text = tabControl.TabPages[e.Index].Text;
+                var size = e.Graphics.MeasureString(text, e.Font);
+                e.Graphics.DrawString(text, e.Font, new SolidBrush(e.ForeColor), textX, e.Bounds.Y + (e.Bounds.Height - size.Height) / 2f);
+                e.DrawFocusRectangle();
+            }
         }
     }
 }

@@ -173,9 +173,9 @@
             // 
             this.rectColorVal.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.rectColorVal.Location = new System.Drawing.Point(188, 42);
+            this.rectColorVal.Location = new System.Drawing.Point(194, 42);
             this.rectColorVal.Name = "rectColorVal";
-            this.rectColorVal.Size = new System.Drawing.Size(30, 261);
+            this.rectColorVal.Size = new System.Drawing.Size(30, 231);
             this.rectColorVal.TabIndex = 17;
             this.rectColorVal.Paint += new System.Windows.Forms.PaintEventHandler(this.rectColorVal_Paint);
             // 
@@ -183,9 +183,9 @@
             // 
             this.rectColorHue.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.rectColorHue.Location = new System.Drawing.Point(120, 42);
+            this.rectColorHue.Location = new System.Drawing.Point(126, 42);
             this.rectColorHue.Name = "rectColorHue";
-            this.rectColorHue.Size = new System.Drawing.Size(30, 261);
+            this.rectColorHue.Size = new System.Drawing.Size(30, 231);
             this.rectColorHue.TabIndex = 15;
             this.rectColorHue.Paint += new System.Windows.Forms.PaintEventHandler(this.rectColorHue_Paint);
             // 
@@ -197,11 +197,11 @@
             this.tbColorVal.BackColor = System.Drawing.Color.White;
             this.tbColorVal.Enabled = false;
             this.tbColorVal.LargeChange = 10;
-            this.tbColorVal.Location = new System.Drawing.Point(156, 42);
+            this.tbColorVal.Location = new System.Drawing.Point(162, 42);
             this.tbColorVal.Maximum = 100;
             this.tbColorVal.Name = "tbColorVal";
             this.tbColorVal.Orientation = System.Windows.Forms.Orientation.Vertical;
-            this.tbColorVal.Size = new System.Drawing.Size(26, 261);
+            this.tbColorVal.Size = new System.Drawing.Size(26, 231);
             this.tbColorVal.TabIndex = 14;
             this.tbColorVal.TickStyle = System.Windows.Forms.TickStyle.None;
             this.tbColorVal.ValueChanged += new System.EventHandler(this.tbColorVal_ValueChanged);
@@ -209,7 +209,7 @@
             // lblColorHue
             // 
             this.lblColorHue.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.lblColorHue.Location = new System.Drawing.Point(93, 308);
+            this.lblColorHue.Location = new System.Drawing.Point(99, 278);
             this.lblColorHue.Name = "lblColorHue";
             this.lblColorHue.Size = new System.Drawing.Size(62, 16);
             this.lblColorHue.TabIndex = 12;
@@ -219,7 +219,7 @@
             // 
             this.lblColorBrightness.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.lblColorBrightness.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblColorBrightness.Location = new System.Drawing.Point(156, 306);
+            this.lblColorBrightness.Location = new System.Drawing.Point(162, 276);
             this.lblColorBrightness.Name = "lblColorBrightness";
             this.lblColorBrightness.Size = new System.Drawing.Size(62, 16);
             this.lblColorBrightness.TabIndex = 10;
@@ -234,12 +234,12 @@
             this.tbColorHue.BackColor = System.Drawing.Color.White;
             this.tbColorHue.Enabled = false;
             this.tbColorHue.LargeChange = 15;
-            this.tbColorHue.Location = new System.Drawing.Point(91, 42);
+            this.tbColorHue.Location = new System.Drawing.Point(97, 42);
             this.tbColorHue.Margin = new System.Windows.Forms.Padding(0);
             this.tbColorHue.Maximum = 360;
             this.tbColorHue.Name = "tbColorHue";
             this.tbColorHue.Orientation = System.Windows.Forms.Orientation.Vertical;
-            this.tbColorHue.Size = new System.Drawing.Size(26, 261);
+            this.tbColorHue.Size = new System.Drawing.Size(26, 231);
             this.tbColorHue.TabIndex = 9;
             this.tbColorHue.TickStyle = System.Windows.Forms.TickStyle.None;
             this.tbColorHue.ValueChanged += new System.EventHandler(this.tbColorHue_ValueChanged);
@@ -249,7 +249,7 @@
             this.btnLedRemoveColor.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.btnLedRemoveColor.Enabled = false;
             this.btnLedRemoveColor.Image = global::MattLamp.Properties.Resources.remove;
-            this.btnLedRemoveColor.Location = new System.Drawing.Point(51, 255);
+            this.btnLedRemoveColor.Location = new System.Drawing.Point(51, 225);
             this.btnLedRemoveColor.Margin = new System.Windows.Forms.Padding(0);
             this.btnLedRemoveColor.Name = "btnLedRemoveColor";
             this.btnLedRemoveColor.Size = new System.Drawing.Size(42, 42);
@@ -262,7 +262,7 @@
             this.btnLedClearColors.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.btnLedClearColors.Enabled = false;
             this.btnLedClearColors.Image = global::MattLamp.Properties.Resources.clear;
-            this.btnLedClearColors.Location = new System.Drawing.Point(112, 255);
+            this.btnLedClearColors.Location = new System.Drawing.Point(112, 225);
             this.btnLedClearColors.Name = "btnLedClearColors";
             this.btnLedClearColors.Size = new System.Drawing.Size(42, 42);
             this.btnLedClearColors.TabIndex = 7;
@@ -274,7 +274,7 @@
             this.btnLedAddColor.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.btnLedAddColor.Enabled = false;
             this.btnLedAddColor.Image = global::MattLamp.Properties.Resources.add;
-            this.btnLedAddColor.Location = new System.Drawing.Point(6, 255);
+            this.btnLedAddColor.Location = new System.Drawing.Point(6, 225);
             this.btnLedAddColor.Name = "btnLedAddColor";
             this.btnLedAddColor.Size = new System.Drawing.Size(42, 42);
             this.btnLedAddColor.TabIndex = 6;
@@ -294,7 +294,7 @@
             this.lbEffectColors.ItemHeight = 18;
             this.lbEffectColors.Location = new System.Drawing.Point(6, 16);
             this.lbEffectColors.Name = "lbEffectColors";
-            this.lbEffectColors.Size = new System.Drawing.Size(148, 230);
+            this.lbEffectColors.Size = new System.Drawing.Size(148, 200);
             this.lbEffectColors.TabIndex = 2;
             this.lbEffectColors.DrawItem += new System.Windows.Forms.DrawItemEventHandler(this.lbEffectColors_DrawItem);
             this.lbEffectColors.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.lbEffectColors_MouseDoubleClick);
@@ -315,7 +315,7 @@
             this.cbLedMode.FormattingEnabled = true;
             this.cbLedMode.Location = new System.Drawing.Point(48, 6);
             this.cbLedMode.Name = "cbLedMode";
-            this.cbLedMode.Size = new System.Drawing.Size(714, 21);
+            this.cbLedMode.Size = new System.Drawing.Size(752, 21);
             this.cbLedMode.TabIndex = 1;
             this.cbLedMode.DrawItem += new System.Windows.Forms.DrawItemEventHandler(this.cbLedMode_DrawItem);
             this.cbLedMode.SelectedIndexChanged += new System.EventHandler(this.cbLedMode_SelectedIndexChanged);
@@ -346,11 +346,15 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.tabControl.Controls.Add(this.tabKeyConfig);
             this.tabControl.Controls.Add(this.tabLedConfig);
+            this.tabControl.DrawMode = System.Windows.Forms.TabDrawMode.OwnerDrawFixed;
+            this.tabControl.ItemSize = new System.Drawing.Size(96, 48);
             this.tabControl.Location = new System.Drawing.Point(12, 42);
             this.tabControl.Name = "tabControl";
             this.tabControl.SelectedIndex = 0;
             this.tabControl.Size = new System.Drawing.Size(776, 396);
+            this.tabControl.SizeMode = System.Windows.Forms.TabSizeMode.Fixed;
             this.tabControl.TabIndex = 5;
+            this.tabControl.DrawItem += new System.Windows.Forms.DrawItemEventHandler(this.tabControl_DrawItem);
             // 
             // tabKeyConfig
             // 
@@ -367,10 +371,10 @@
             this.tabKeyConfig.Controls.Add(this.rbActionNone);
             this.tabKeyConfig.Controls.Add(this.rbActionCycleLedMode);
             this.tabKeyConfig.Controls.Add(this.rbActionSendKeyCombo);
-            this.tabKeyConfig.Location = new System.Drawing.Point(4, 22);
+            this.tabKeyConfig.Location = new System.Drawing.Point(4, 52);
             this.tabKeyConfig.Name = "tabKeyConfig";
             this.tabKeyConfig.Padding = new System.Windows.Forms.Padding(3);
-            this.tabKeyConfig.Size = new System.Drawing.Size(768, 370);
+            this.tabKeyConfig.Size = new System.Drawing.Size(768, 340);
             this.tabKeyConfig.TabIndex = 0;
             this.tabKeyConfig.Text = "Keys";
             this.tabKeyConfig.UseVisualStyleBackColor = true;
@@ -507,10 +511,10 @@
             this.tabLedConfig.Controls.Add(this.btnSaveLedConfig);
             this.tabLedConfig.Controls.Add(this.lblMode);
             this.tabLedConfig.Controls.Add(this.cbLedMode);
-            this.tabLedConfig.Location = new System.Drawing.Point(4, 22);
+            this.tabLedConfig.Location = new System.Drawing.Point(4, 52);
             this.tabLedConfig.Name = "tabLedConfig";
             this.tabLedConfig.Padding = new System.Windows.Forms.Padding(3);
-            this.tabLedConfig.Size = new System.Drawing.Size(768, 370);
+            this.tabLedConfig.Size = new System.Drawing.Size(768, 340);
             this.tabLedConfig.TabIndex = 1;
             this.tabLedConfig.Text = "LEDs";
             this.tabLedConfig.UseVisualStyleBackColor = true;
@@ -527,9 +531,9 @@
             this.gbEffectSettings.Controls.Add(this.lblStrobeSpeedDisp);
             this.gbEffectSettings.Controls.Add(this.lblFaster);
             this.gbEffectSettings.Controls.Add(this.tbStrobeSpeed);
-            this.gbEffectSettings.Location = new System.Drawing.Point(172, 262);
+            this.gbEffectSettings.Location = new System.Drawing.Point(172, 232);
             this.gbEffectSettings.Name = "gbEffectSettings";
-            this.gbEffectSettings.Size = new System.Drawing.Size(360, 101);
+            this.gbEffectSettings.Size = new System.Drawing.Size(354, 101);
             this.gbEffectSettings.TabIndex = 34;
             this.gbEffectSettings.TabStop = false;
             this.gbEffectSettings.Text = "Effect Settings";
@@ -557,7 +561,7 @@
             this.tbEffectSpeed.Maximum = 10000;
             this.tbEffectSpeed.Minimum = 100;
             this.tbEffectSpeed.Name = "tbEffectSpeed";
-            this.tbEffectSpeed.Size = new System.Drawing.Size(261, 28);
+            this.tbEffectSpeed.Size = new System.Drawing.Size(255, 28);
             this.tbEffectSpeed.TabIndex = 19;
             this.tbEffectSpeed.TickStyle = System.Windows.Forms.TickStyle.None;
             this.tbEffectSpeed.Value = 100;
@@ -588,7 +592,7 @@
             // 
             this.lblSlower.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.lblSlower.AutoSize = true;
-            this.lblSlower.Location = new System.Drawing.Point(315, 80);
+            this.lblSlower.Location = new System.Drawing.Point(309, 80);
             this.lblSlower.Name = "lblSlower";
             this.lblSlower.Size = new System.Drawing.Size(39, 13);
             this.lblSlower.TabIndex = 26;
@@ -626,7 +630,7 @@
             this.tbStrobeSpeed.Maximum = 5000;
             this.tbStrobeSpeed.Minimum = 1;
             this.tbStrobeSpeed.Name = "tbStrobeSpeed";
-            this.tbStrobeSpeed.Size = new System.Drawing.Size(261, 26);
+            this.tbStrobeSpeed.Size = new System.Drawing.Size(255, 26);
             this.tbStrobeSpeed.TabIndex = 24;
             this.tbStrobeSpeed.TickStyle = System.Windows.Forms.TickStyle.None;
             this.tbStrobeSpeed.Value = 1;
@@ -642,7 +646,7 @@
             this.gbEffectColors.Controls.Add(this.btnLedClearColors);
             this.gbEffectColors.Location = new System.Drawing.Point(6, 34);
             this.gbEffectColors.Name = "gbEffectColors";
-            this.gbEffectColors.Size = new System.Drawing.Size(160, 303);
+            this.gbEffectColors.Size = new System.Drawing.Size(160, 273);
             this.gbEffectColors.TabIndex = 33;
             this.gbEffectColors.TabStop = false;
             this.gbEffectColors.Text = "Effect Colors";
@@ -656,7 +660,7 @@
             this.gbLedStatus.Controls.Add(this.ledLayoutControl);
             this.gbLedStatus.Location = new System.Drawing.Point(172, 34);
             this.gbLedStatus.Name = "gbLedStatus";
-            this.gbLedStatus.Size = new System.Drawing.Size(360, 222);
+            this.gbLedStatus.Size = new System.Drawing.Size(354, 192);
             this.gbLedStatus.TabIndex = 32;
             this.gbLedStatus.TabStop = false;
             this.gbLedStatus.Text = "LED Status";
@@ -665,9 +669,9 @@
             // 
             this.ssLedStatus.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.lblLedStatus});
-            this.ssLedStatus.Location = new System.Drawing.Point(3, 197);
+            this.ssLedStatus.Location = new System.Drawing.Point(3, 167);
             this.ssLedStatus.Name = "ssLedStatus";
-            this.ssLedStatus.Size = new System.Drawing.Size(354, 22);
+            this.ssLedStatus.Size = new System.Drawing.Size(348, 22);
             this.ssLedStatus.SizingGrip = false;
             this.ssLedStatus.TabIndex = 28;
             // 
@@ -685,7 +689,7 @@
             this.ledLayoutControl.DataSource = this.ledStatusBindingSource;
             this.ledLayoutControl.Location = new System.Drawing.Point(3, 16);
             this.ledLayoutControl.Name = "ledLayoutControl";
-            this.ledLayoutControl.Size = new System.Drawing.Size(354, 178);
+            this.ledLayoutControl.Size = new System.Drawing.Size(348, 148);
             this.ledLayoutControl.TabIndex = 27;
             this.ledLayoutControl.Text = "ledLayoutControl1";
             this.ledLayoutControl.StatusTextChanged += new System.EventHandler<MattLamp.Controls.StatusTextChangedEventArgs>(this.ledLayoutControl_StatusTextChanged);
@@ -711,9 +715,9 @@
             this.gbLive.Controls.Add(this.rectColorVal);
             this.gbLive.Controls.Add(this.rectColorHue);
             this.gbLive.Controls.Add(this.tbColorHue);
-            this.gbLive.Location = new System.Drawing.Point(538, 34);
+            this.gbLive.Location = new System.Drawing.Point(532, 35);
             this.gbLive.Name = "gbLive";
-            this.gbLive.Size = new System.Drawing.Size(224, 329);
+            this.gbLive.Size = new System.Drawing.Size(230, 299);
             this.gbLive.TabIndex = 31;
             this.gbLive.TabStop = false;
             this.gbLive.Text = "Live Mode";
@@ -721,7 +725,7 @@
             // label1
             // 
             this.label1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.label1.Location = new System.Drawing.Point(17, 308);
+            this.label1.Location = new System.Drawing.Point(23, 278);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(70, 17);
             this.label1.TabIndex = 32;
@@ -732,7 +736,8 @@
             this.rbLiveModeHB.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.rbLiveModeHB.AutoSize = true;
             this.rbLiveModeHB.Checked = true;
-            this.rbLiveModeHB.Location = new System.Drawing.Point(96, 19);
+            this.rbLiveModeHB.Enabled = false;
+            this.rbLiveModeHB.Location = new System.Drawing.Point(102, 19);
             this.rbLiveModeHB.Name = "rbLiveModeHB";
             this.rbLiveModeHB.Size = new System.Drawing.Size(106, 17);
             this.rbLiveModeHB.TabIndex = 31;
@@ -749,13 +754,13 @@
             this.tbColorTemp.BackColor = System.Drawing.Color.White;
             this.tbColorTemp.Enabled = false;
             this.tbColorTemp.LargeChange = 200;
-            this.tbColorTemp.Location = new System.Drawing.Point(14, 42);
+            this.tbColorTemp.Location = new System.Drawing.Point(20, 42);
             this.tbColorTemp.Margin = new System.Windows.Forms.Padding(0);
             this.tbColorTemp.Maximum = 10000;
             this.tbColorTemp.Minimum = 1500;
             this.tbColorTemp.Name = "tbColorTemp";
             this.tbColorTemp.Orientation = System.Windows.Forms.Orientation.Vertical;
-            this.tbColorTemp.Size = new System.Drawing.Size(26, 261);
+            this.tbColorTemp.Size = new System.Drawing.Size(26, 231);
             this.tbColorTemp.SmallChange = 10;
             this.tbColorTemp.TabIndex = 28;
             this.tbColorTemp.TickStyle = System.Windows.Forms.TickStyle.None;
@@ -766,7 +771,8 @@
             // 
             this.rbLiveModeTemp.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.rbLiveModeTemp.AutoSize = true;
-            this.rbLiveModeTemp.Location = new System.Drawing.Point(14, 19);
+            this.rbLiveModeTemp.Enabled = false;
+            this.rbLiveModeTemp.Location = new System.Drawing.Point(20, 19);
             this.rbLiveModeTemp.Name = "rbLiveModeTemp";
             this.rbLiveModeTemp.Size = new System.Drawing.Size(72, 17);
             this.rbLiveModeTemp.TabIndex = 30;
@@ -778,9 +784,9 @@
             // 
             this.rectColorTemp.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.rectColorTemp.Location = new System.Drawing.Point(43, 42);
+            this.rectColorTemp.Location = new System.Drawing.Point(49, 42);
             this.rectColorTemp.Name = "rectColorTemp";
-            this.rectColorTemp.Size = new System.Drawing.Size(30, 261);
+            this.rectColorTemp.Size = new System.Drawing.Size(30, 231);
             this.rectColorTemp.TabIndex = 16;
             this.rectColorTemp.Paint += new System.Windows.Forms.PaintEventHandler(this.rectColorTemp_Paint);
             // 
@@ -790,7 +796,7 @@
             this.btnSaveLedConfig.Enabled = false;
             this.btnSaveLedConfig.Image = global::MattLamp.Properties.Resources.diskette;
             this.btnSaveLedConfig.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnSaveLedConfig.Location = new System.Drawing.Point(6, 340);
+            this.btnSaveLedConfig.Location = new System.Drawing.Point(6, 310);
             this.btnSaveLedConfig.Margin = new System.Windows.Forms.Padding(3, 9, 3, 3);
             this.btnSaveLedConfig.Name = "btnSaveLedConfig";
             this.btnSaveLedConfig.Size = new System.Drawing.Size(160, 24);

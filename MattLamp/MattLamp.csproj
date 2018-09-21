@@ -155,6 +155,8 @@
     <Content Include="icons\add.png" />
     <Content Include="icons\clear.png" />
     <Content Include="icons\diskette.png" />
+    <Content Include="icons\key_m.png" />
+    <Content Include="icons\led.png" />
     <Content Include="icons\remove.png" />
     <Content Include="icons\terminal.png" />
   </ItemGroup>
