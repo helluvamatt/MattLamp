@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="CustomColorsConfig" targetNamespace="http://schneenet.com/MattLamp/CustomColorsConfig.xsd" elementFormDefault="qualified" xmlns="http://schneenet.com/MattLamp/CustomColorsConfig.xsd" xmlns:mstns="http://schneenet.com/MattLamp/CustomColorsConfig.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="colors">
+    <xs:complexType>
+      <xs:sequence minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="color">
+          <xs:complexType>
+            <xs:attribute name="r" type="xs:unsignedByte" use="required" />
+            <xs:attribute name="g" type="xs:unsignedByte" use="required" />
+            <xs:attribute name="b" type="xs:unsignedByte" use="required" />
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

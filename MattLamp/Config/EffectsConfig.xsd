@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="EffectsConfig" targetNamespace="http://schneenet.com/MattLamp/EffectsConfig.xsd" elementFormDefault="qualified" xmlns="http://schneenet.com/MattLamp/EffectsConfig.xsd" xmlns:mstns="http://schneenet.com/MattLamp/EffectsConfig.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="effects">
+    <xs:complexType>
+      <xs:sequence minOccurs="1" maxOccurs="unbounded">
+        <xs:element name="effect">
+          <xs:complexType>
+            <xs:attribute name="name" type="xs:string" use="required" />
+            <xs:attribute name="description" type="xs:string" use="required" />
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

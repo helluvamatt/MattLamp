@@ -3,24 +3,24 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27703.2000
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MattLamp", "MattLamp.vcxproj", "{91357201-7103-422D-AF57-D41C7ED4D2EF}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MattLamp", "MattLamp\MattLamp.csproj", "{1FC3B8D5-56CE-46E4-A3FF-3B53455F5CCD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MattLamp.Common", "MattLamp.Common\MattLamp.Common.csproj", "{E908FBF8-11EE-4CE0-8E29-18AA336DCDBB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
-		Debug|x64 = Debug|x64
-		Debug|x86 = Debug|x86
-		Release|x64 = Release|x64
-		Release|x86 = Release|x86
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{91357201-7103-422D-AF57-D41C7ED4D2EF}.Debug|x64.ActiveCfg = Debug|x64
-		{91357201-7103-422D-AF57-D41C7ED4D2EF}.Debug|x64.Build.0 = Debug|x64
-		{91357201-7103-422D-AF57-D41C7ED4D2EF}.Debug|x86.ActiveCfg = Debug|Win32
-		{91357201-7103-422D-AF57-D41C7ED4D2EF}.Debug|x86.Build.0 = Debug|Win32
-		{91357201-7103-422D-AF57-D41C7ED4D2EF}.Release|x64.ActiveCfg = Release|x64
-		{91357201-7103-422D-AF57-D41C7ED4D2EF}.Release|x64.Build.0 = Release|x64
-		{91357201-7103-422D-AF57-D41C7ED4D2EF}.Release|x86.ActiveCfg = Release|Win32
-		{91357201-7103-422D-AF57-D41C7ED4D2EF}.Release|x86.Build.0 = Release|Win32
+		{1FC3B8D5-56CE-46E4-A3FF-3B53455F5CCD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1FC3B8D5-56CE-46E4-A3FF-3B53455F5CCD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1FC3B8D5-56CE-46E4-A3FF-3B53455F5CCD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1FC3B8D5-56CE-46E4-A3FF-3B53455F5CCD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E908FBF8-11EE-4CE0-8E29-18AA336DCDBB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E908FBF8-11EE-4CE0-8E29-18AA336DCDBB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E908FBF8-11EE-4CE0-8E29-18AA336DCDBB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E908FBF8-11EE-4CE0-8E29-18AA336DCDBB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
